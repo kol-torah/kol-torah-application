@@ -15,9 +15,11 @@ export function TopBar() {
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         {/* Logo and Name */}
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-blue-600 to-blue-700 flex items-center justify-center text-white font-bold text-xl shadow-md">
-            קת
-          </div>
+          <img 
+            src="/kol-torah-rabbi-logo.svg" 
+            alt="Kol Torah Logo" 
+            className="w-10 h-10"
+          />
           <span className="text-xl font-bold text-slate-900 dark:text-white">
             {t('welcome.title')}
           </span>

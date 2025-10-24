@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Kol Torah: side-profile rabbi reading a book, minimalist sketch -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Minimalist logo of a rabbi reading a book">
+  <defs>
+    <style>
+      .line { fill: none; stroke: #0f172a; stroke-width: 10; stroke-linecap: round; stroke-linejoin: round; }
+      .accent { fill: none; stroke: #1d4ed8; stroke-width: 10; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <!-- Safe margin -->
+  <rect x="0" y="0" width="512" height="512" fill="none"/>
+
+  <!-- Book (side view, slightly open) -->
+  <path class="accent" d="M310 310
+                          l110 -30
+                          q12 -4 12 8
+                          l0 60
+                          q0 10 -10 7
+                          l-112 -28
+                          q-10 -2 -10 -17
+                          t10 -17z"/>
+  <path class="line" d="M308 310 l-18 40"/>
+  <path class="line" d="M420 280 l-18 40"/>
+
+  <!-- Pages hints -->
+  <path class="line" d="M332 316 l78 -20"/>
+  <path class="line" d="M334 330 l74 -18"/>
+  <path class="line" d="M336 344 l70 -17"/>
+
+  <!-- Rabbi silhouette (side profile, simple sketch) -->
+  <!-- Hat brim -->
+  <path class="line" d="M122 210
+                         q60 -10 140 0"/>
+  <!-- Hat crown -->
+  <path class="line" d="M170 145
+                         q50 -10 90 20
+                         q-35 15 -90 15
+                         q-12 -14 0 -35z"/>
+  <!-- Face profile (nose -> lips -> beard) -->
+  <path class="line" d="M220 210
+                         q16 8 12 18
+                         q-3 7 -10 10
+                         q15 20 18 38"/>
+  <!-- Beard outline -->
+  <path class="line" d="M240 276
+                         q-10 26 -40 38
+                         q-18 8 -30 28
+                         q-4 6 -10 4
+                         q-8 -2 -10 -10
+                         q8 -32 34 -48
+                         q22 -14 30 -34
+                         q6 -14 6 -24"/>
+  <!-- Back of head / neck -->
+  <path class="line" d="M190 208
+                         q-14 16 -18 38
+                         q-4 22 -2 34"/>
+
+  <!-- Torso & arm to the book -->
+  <path class="line" d="M164 320
+                         q36 -18 82 -22
+                         q14 -2 38 4"/>
+  <path class="line" d="M230 304
+                         q24 8 44 24
+                         q10 8 20 10"/>
+
+  <!-- Subtle baseline -->
+  <path class="line" d="M90 390 H420" opacity="0.2"/>
+</svg>
